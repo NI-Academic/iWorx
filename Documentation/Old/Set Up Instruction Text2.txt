@@ -1,0 +1,322 @@
+Set Up Dialog - Blood Pressure                                	"1. Connect the IX-MYDAQ Sensor Adaptor into the NI myDAQ. 
+
+2. Connect the GPSN-100 Gas Pressure sensor to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your PC using a USB cable.
+ 
+4. Connect the BP-200 using the A-BT-220 tubing to the GPSN-100. 
+
+5. Ensure the manometer on the blood pressure cuff is at 0mmHg. Click set for SP1.
+
+6. Using the manometer apply 200mmHg, ensure the signal is steady and click set for SP2.
+
+7. Put the cuff of the BP-600 on the upper arm of the subject. Align the arrow on the cuff over the subject’s brachial artery. Have the subject rest in the supine position.
+"
+Set Up Dialog - Circulation Lab            	"1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ.
+
+2. Connect the NI myDAQ to your computer with a USB cable.
+
+3. Connect the PTN-104 Pulse Transducer to channel 1 of the IX-MYDAQ.
+
+4. Connect the GPSN-100 to channel 2 of the IX-MYDAQ.
+
+5. Connect the BP-200 using the A-BT-220 tubing to the GPSN-100.
+
+6. Ensure the manometer on the blood pressure cuff is at 0mmHg. Click set for SP1 on channel 2.
+
+7. Using the manometer apply 200mmHg, ensure the signal is steady and click set for SP2 on channel 2.
+
+8. Wrap the pulse sensor snuggly around your fingertip. 
+
+9. Put the cuff of the BP-600 on the upper arm of the subject. Align the arrow on the cuff over the subject’s brachial artery. Have the subject rest in the supine position. 
+
+10. Adjust the PTN-104 Pulse Transducer until you see distinct negative spikes with each heartbeat on channel 1.
+
+11. Press the Calibrate button on channel 1 to automatically set the threshold limit.
+"
+Set Up Dialog - Turbidity	"1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ edge connector.
+
+2. Connect the CTSN-100 Colorimeter & Turbidity sensor to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your computer using a USB cable.
+
+4. Set the sensor to Turbidity mode. The sensor will only accept micro cuvette's.
+
+5. Prepare a clean cuvette with the 100NTU standard. Label the cuvette. Click Set for SP1.
+
+6. Prepare a different cuvette with the 400NTU standard. Label the cuvette. Click Set for SP2."
+Set Up Dialog - Colorimeter	"1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ edge connector.
+
+2. Connect the CTSN-100 Colorimeter & Turbidity sensor to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your computer using a USB cable.
+
+4. Set the sensor to Colorimeter mode. The sensor will only accept micro cuvette's.
+
+5. Prepare a clean cuvette with distilled water. The voltage should be 2.5V for all colors.
+
+6. Prepare another cuvette with black solution to block out all light. The output voltage should be 0V for all colors.
+ 
+"
+Set Up Dialog - Conductivity	"1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ.
+
+2. Connect the CMN-100 Conductivity Sensor to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your computer using a USB cable.
+
+4. The CMN-100 should be calibrated within the expected range. 
+For example: If the expected range is 500uS to 1000uS perform a 2 point
+calibration with the first point (SP1) at 400uS and the second point (SP2) at
+1000uS."
+Set Up Dialog - Dissolved Oxygen          	"1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ.
+
+2. Connect the DO2N-200E Dissolved Oxygen sensor to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your computer using a USB cable. Wait 15 mins for the sensor to warm up. 
+
+4. Prepare 2 beakers, 1 with diet soda and 1 with tap water. Ensure the volumes are the same.
+
+5. Place the electrode of the DO2N-200E in the beaker with the water. Once the trace settles click Set for SP2 for 20 % dissolved oxygen. 
+
+6. Place the electrode in the beaker with the diet soda. Once the trace settles click Set for SP1 for 0 % dissolved oxygen."
+Set Up Dialog - Drop Counter                   	"1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ.                                                                                                                                         
+2. Connect the DCN-100 Drop Counter to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your computer using a USB cable.
+
+4. Set the sensor so that drops fall directly through the center of the hole and are about 1 inch above the optical slot. 
+
+5. Test your system by sending a few drops through the sensor so you see the signal on the waveform chart. Set the drip rate to 2 seconds per drop or slower.
+
+6. Set the Threshold so that the voltage signal rises above it when a drop is detected but well above the baseline of the signal."
+Set Up Dialog - Event Marker	"1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ.
+
+2. Connect the EMN-100 Event Marker to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your PC using a USB cable.
+
+4. Press the button when the desired event occurs."
+Set Up Dialog - Force	"1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ.
+
+2. Connect the FTN-5k Force Transducer to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your computer using a USB cable.
+
+4. Select the force range you would like to use (500g or 5Kg).
+
+5. Start with no load on the FTN-5k and press Set for SP2 Voltage. That will 'tare' the device for no load.
+
+6. Hang a known mass from the FTN-5k, enter the value of the mass in SP1 Value, then press Set for SP1 Voltage.
+
+7. If you change the force range you will need to recalibrate."
+Set Up Dialog - Gas Pressure                	"1. Connect the IX-MYDAQ Sensor Adaptor into the NI myDAQ. 
+
+2. Connect the GPSN-100 Gas Pressure sensor to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your PC using a USB cable.
+ 
+4.Connect the BP-200 using the A-BT-220 tubing to the GPSN-100. 
+
+5. Ensure the manometer on the blood pressure cuff is at 0mmHg. Click set for SP1.
+
+6. Using the manometer apply 200mmHg, ensure the signal is steady and click set for SP2."
+Set Up Dialog - Goniometer                     	"1. Connect the IX-MYDAQ adaptor board to the NI myDAQ.
+
+2. Connect the NI myDAQ to your computer using a USB cable.
+
+3. Connect the GNN-100 Goniometer to the IX-MYDAQ.
+
+4. Use a text book to set the GNN-100 to an angle of 90°, type 90 for the SP1 Angle and press set to record the voltage in SP1 Voltage.
+
+5. Set the GNN-100 straight, enter '0' for SP2 Angle, then press Set to record the voltage in SP2 Voltage."
+Set Up Dialog - Hand Dynamometer         	"1. Connect the IX-MYDAQ Sensor Adaptor into the NI myDAQ. 
+
+2. Connect the GPSN-100 Gas Pressure sensor to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your PC using a USB cable.
+ 
+4. Connect the BP-200 using the A-BT-220 tubing to the GPSN-100. 
+
+5. Ensure the manometer on the blood pressure cuff is at 0mmHg. Click set for SP1.
+
+6. Using the manometer apply 200mmHg, ensure the signal is steady and click set for SP2.
+
+7. Once the calibration is complete disconnect the BP-200.
+
+8. Connect the FT-220 to the GPSN-100 using the A-BT-220 tubing provided.
+"
+Set Up Dialog - Heart Sounds                  	"1. Connect the IX-MYDAQ adaptor board to the NI myDAQ.
+
+2. Connect the NI myDAQ to your PC using a USB cable.
+
+3. Place the SPN-304 in the Heart Sounds mode, using the switch.
+
+4. Connect the SPN-304 to the IX-MYDAQ.
+
+5. Connect the HSMN-304 to the white connector of the SPN-304. Optionally, Plug the Red input of the SPN-304 using the RED blocking cap.
+
+"
+Set Up Dialog - Humidity                         	"1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ.
+
+2. Connect the HSN-100 Humidity sensor to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your computer using a USB cable.
+
+4. Multiply the output voltage in Volts by 100 to get the %RH.
+"
+Set Up Dialog - Periodic Motion Lab	"1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ.
+
+2. Connect one LSN-100 light and laser sensor to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your computer using a USB cable.
+
+4. For a pendulum, set the beam in the path at the at the lowest point of the swing.
+"
+Set Up Dialog - Light & Laser                   	"1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ.
+
+2. Connect two sets of LSN-100's Light & Laser sensors to both channels of the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your computer using a USB cable.
+"
+Set Up Dialog - Magnetic Field                 	"1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ.
+
+2. Connect the MGN-100 Magnetic Sensor to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your computer using a USB cable. 
+
+4. The voltage to Gauss relationship is as follows: 0G = 2V; +200G = 2.2V; -200G = 1.8V
+"
+Set Up Dialog - Microphone	"1. Connect the NI myDAQ to your computer using a USB cable.
+
+2. Connect the MSN-100 microphone to the Audio In port on the NI myDAQ."
+Set Up Dialog - Motion                            	"1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ.
+
+2. Connect the MDN-100 Motion Sensor to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your computer using a USB cable.
+
+4. Set the MDN-100 sensor .5m away from a flat wall press Set for SP2.
+
+5. Set the MDN-100 sensor 2.5m away from a flat wall press Set for SP1."
+Set Up Dialog - pH                                  	"1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ.
+
+2. Connect the PHN-100 pH sensor to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your computer using a USB cable.
+
+4. Take the boot off of the pH electrode and immerse in a 7.00pH buffer for 30 minutes.
+
+5. After 30 minutes is complete Click set for SP1.
+
+6. Rinse off the electrode and immerse it in a 10.0pH buffer. The 30 minute wait does not need to be repeated here. Click set for SP2. "
+Set Up Dialog - Polar Heart Rate	"1. Use warm water to moisten the contact surface of the heart rate belt, then wrap it snuggly directly on the skin around the chest.
+
+2. Snap the Polar heart sensor to the belt; make sure both snaps are connected.
+
+3. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ. 
+
+4. Connect the PHRMN-100 polar heart rate monitor to the IX-MYDAQ .                                                                                                                                                                          
+5. Connect the NI myDAQ to your computer with a USB cable.
+
+6. Once you see the heart signal on the waveform chart, press the Calibrate button to automatically set the threshold."
+Set Up Dialog - Pulse	"1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ.
+
+2. Connect the PTN-104 Pulse Transducer to the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your computer with a USB cable.
+
+4. Wrap the pulse sensor snuggly around your fingertip. Adjust the sensor until you see distinct negative spikes with each heartbeat.
+
+5. Press the Calibrate button to automatically set the threshold limit.
+"
+Set Up Dialog - Respiration Belt               	"1. Wrap the respiration belt snuggly around your chest.
+
+2. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ
+
+3. Connect the RMN-204 Respiration Monitor to the IX-MYDAQ.
+
+4. Connect the NI myDAQ to your computer using a USB Cable.
+
+5. Clear the chart and breath in and exhale 3 times, so three peaks are shown on the chart. 
+
+6. Press the Calibrate button to set the threshold limits.  
+"
+Set Up Dialog - Spirometer	"1. Connect the IX-MYDAQ adaptor board to the NI myDAQ.
+
+2. Connect the NI myDAQ to your PC using a USB cable.
+
+3. Place the SPN-304 in the spirometer mode, using the switch.
+
+4. Connect the flow head to the spirometer using the included tubing. Be sure to allow 15 minutes after you plug the spirometer in to warm up. After the warm-up period, when you blow into the mouthpiece you should see the air-flow trace move up or down.
+
+5. Read the value written on the sensor box and input this number in SP1 Pressure
+"
+Set Up Dialog - Thermistor	"1. Connect the IX-MYDAQ adaptor board to the NI myDAQ
+
+2. Connect the NI myDAQ to your PC using a USB cable.
+
+3. Connect the TMN-100 to the IX-MYDAQ.
+
+4. Prepare 2 water baths, one at 30oC and the other at 40oC. 
+
+5. Put the TMN-100 in the 30oC bath first. Once the trace settles click Set for SP1.
+
+6. Put the TMN-100 in the 40oC bath. Once the trace settles click Set for SP2.
+"
+Set Up Dialog - Water Quality                  	"This Lab is designed to use four different sensors (DO2N-200E, PHN-100, CMN-100, and CTSN-100) one at a time to measure the qualities of a water sample. 
+
+1. Connect the IX-MYDAQ Sensor Adaptor to the NI myDAQ.
+
+2. Connect one of the sensors to Channel 1 on the IX-MYDAQ.
+
+3. Connect the NI myDAQ to your computer using a USB cable.
+
+4. Use the Sensor Dropdown to select which sensor you use. Each sensor will need calibration the first time you use it.
+
+Individual calibration instructions:
+
+DO2N-200E
+1. Connect the DO2N-200E Dissolved Oxygen sensor to the IX-MYDAQ and Wait 15 mins for the unit to warm up.
+
+2. Prepare 2 beakers, 1 with diet soda and 1 with tap water. Ensure the volumes are the same.
+
+3. Place the electrode of the DO2N-200E in the beaker with the water. Once the trace settles click Set for SP2 for 20 % dissolved oxygen. 
+
+4. Place the electrode in the beaker with the diet soda. Once the trace settles click Set for SP1 for 0 % dissolved oxygen. 
+
+PHN-100
+1. Connect the PHN-100 pH sensor to the IX-MYDAQ.
+
+2. Take the boot off of the pH electrode and immerse in a 7.00pH buffer for 30 minutes.
+
+3. After 30 minutes is complete Click set for SP1.
+
+4. Rinse off the electrode and immerse it in a 10.0pH buffer. The 30 minute wait does not need to be repeated here. Click set for SP2.
+
+CMN-100
+1. Connect the CMN-100 Conductivity Sensor to the IX-MYDAQ.
+
+2. The CMN-100 should be calibrated within the expected range. 
+For example: If the expected range is 500uS to 1000uS perform a 2 point
+calibration with the first point (SP1) at 400uS and the second point (SP2) at
+1000uS.
+
+CTSN-100
+Turbidity:
+1. Connect the CTSN-100 Colorimeter & Turbidity sensor to the IX-MYDAQ.
+
+2. Set the sensor to Turbidity mode. The sensor will only accept micro cuvettes.
+
+3. Prepare a clean cuvette with the 100NTU standard. Label the cuvette. Click Set for SP1.
+
+4. Prepare a different cuvette with the 400NTU standard. Label the cuvette. Click Set for SP2.
+
+Color:
+1. Connect the CTSN-100 Colorimeter & Turbidity sensor to the IX-MYDAQ.
+
+2. Set the sensor to Colorimeter mode. The sensor will only accept micro cuvette's.
+
+3. Prepare a clean cuvette with distilled water. The voltage should be 2.5V for all colors.
+
+4. Prepare another cuvette with black solution to block out all light. The output voltage should be 0V for all colors.
+"

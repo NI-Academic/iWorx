@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile xmlns="http://www.ni.com/PlatformFramework">
+    <SourceModelFeatureSet>
+        <ParsableNamespace AssemblyFileVersion="2.0.0.0" FeatureSetName="LabVIEW for myDAQ" Name="http://www.ni.com/LabVIEW.VI" Version="2.0.0.32768" />
+        <ParsableNamespace AssemblyFileVersion="2.0.0.0" FeatureSetName="LabVIEW for myDAQ" Name="http://www.ni.com/PlatformFramework" Version="2.0.0.32768" />
+        <ParsableNamespace AssemblyFileVersion="2.0.0.0" FeatureSetName="LabVIEW for myDAQ" Name="http://www.ni.com/MocCommon" Version="2.0.0.32768" />
+        <ParsableNamespace AssemblyFileVersion="2.0.0.0" FeatureSetName="LabVIEW for myDAQ" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="2.0.0.32768" />
+    </SourceModelFeatureSet>
+    <VirtualInstrument Id="1" Reentrancy="Stateful" xmlns="http://www.ni.com/LabVIEW.VI">
+        <Icon Id="2" ListViewIconCrop="2 2 27 27" xmlns="http://www.ni.com/PlatformFramework">
+            <IconPanel Height="[float]20" Id="3" Width="[float]30">
+                <IconTemplate ClipMargin="[SMThickness]3,3,3,3" Id="155" TemplateName="GrayNoText">
+                    <Rectangle Fill="[SMSolidColorBrush]#ff999999" Id="156" IsHitTestVisible="[bool]False" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" />
+                    <Rectangle Fill="[SMSolidColorBrush]#ffe6e6e6" Id="157" IsHitTestVisible="[bool]False" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#ffffffff" />
+                    <Rectangle Fill="[SMLinearGradientBrush]{Start: 0.5 0}, {End: 0.5 1}, {Stops: {Stop: #ffe6e6e6 0}, {Stop: #ffd9d9d9 1}}" Height="[float]6" Id="158" IsHitTestVisible="[bool]False" Margin="[SMThickness]2,0,2,2" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2" RadiusY="[float]2" VerticalAlignment="[VerticalAlignment]Bottom" />
+                    <Rectangle Fill="[SMLinearGradientBrush]{Start: 0.5 0}, {End: 0.5 1}, {Stops: {Stop: #fffafafa 0}, {Stop: #ffe6e6e6 1}}" Height="[float]6" Id="159" IsHitTestVisible="[bool]False" Margin="[SMThickness]2,2,2,0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2" RadiusY="[float]2" VerticalAlignment="[VerticalAlignment]Top" />
+                </IconTemplate>
+                <Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Id="10" Margin="[SMThickness]3,3,3,3">
+                    <Rectangle Fill="[SMSolidColorBrush]#ffad1cb6" Height="[float]12" Id="148" Left="[float]3" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]4" Width="[float]18" />
+                    <Path Data="[PathGeometry]M 0.3999996,0 C 0.3999996,0 0,10.6 0,10.6 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]11.6" Id="161" Left="[float]6" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]2" Width="[float]1.39999962" />
+                    <Path Data="[PathGeometry]M 0.3999996,0 C 0.3999996,0 0,10.6 0,10.6 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]11.6" Id="162" Left="[float]10" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]2" Width="[float]1.39999962" />
+                    <Path Data="[PathGeometry]M 0.3999996,0 C 0.3999996,0 0,10.6 0,10.6 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]11.6" Id="163" Left="[float]14" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]2" Width="[float]1.39999962" />
+                    <Path Data="[PathGeometry]M 0,0 C 0,0 5.6,0.159997 5.6,0.159997 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]1.159997" Id="165" Left="[float]18" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]7" Width="[float]6.60000038" />
+                    <Path Data="[PathGeometry]M 2.879988,2.719993 C 2.879988,2.719993 0,0 0,0 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]3.71999264" Id="166" Left="[float]20" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]4" Width="[float]3.87998772" />
+                    <Path Data="[PathGeometry]M 2.720013,-3 C 2.720013,-3 0,0 0,0 " Fill="[SMSolidColorBrush]#ffad1cb6" Height="[float]4" Id="167" Left="[float]20" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]10" Width="[float]3.72001266" />
+                    <Rectangle Fill="[SMSolidColorBrush]#ffad1cb6" Height="[float]12" Id="176" Left="[float]807" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]147" Width="[float]18" />
+                    <Path Data="[PathGeometry]M 0.3999996,0 C 0.3999996,0 0,10.6 0,10.6 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]11.6" Id="177" Left="[float]818" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]145" Width="[float]1.39999962" />
+                    <Path Data="[PathGeometry]M 2.720013,-3 C 2.720013,-3 0,0 0,0 " Fill="[SMSolidColorBrush]#ffad1cb6" Height="[float]4" Id="178" Left="[float]824" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]153" Width="[float]3.72001266" />
+                    <Path Data="[PathGeometry]M 0.3999996,0 C 0.3999996,0 0,10.6 0,10.6 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]11.6" Id="179" Left="[float]814" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]145" Width="[float]1.39999962" />
+                    <Path Data="[PathGeometry]M 2.879988,2.719993 C 2.879988,2.719993 0,0 0,0 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]3.71999264" Id="180" Left="[float]824" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]147" Width="[float]3.87998772" />
+                    <Path Data="[PathGeometry]M 0,0 C 0,0 5.6,0.159997 5.6,0.159997 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]1.159997" Id="181" Left="[float]822" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]150" Width="[float]6.60000038" />
+                    <Path Data="[PathGeometry]M 0.3999996,0 C 0.3999996,0 0,10.6 0,10.6 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]11.6" Id="182" Left="[float]810" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]145" Width="[float]1.39999962" />
+                    <Path Data="[PathGeometry]M 0.3999996,0 C 0.3999996,0 0,10.6 0,10.6 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]11.6" Id="183" Left="[float]524" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]155" Width="[float]1.39999962" />
+                    <Path Data="[PathGeometry]M 0.3999996,0 C 0.3999996,0 0,10.6 0,10.6 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]11.6" Id="184" Left="[float]520" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]155" Width="[float]1.39999962" />
+                    <Rectangle Fill="[SMSolidColorBrush]#ffad1cb6" Height="[float]12" Id="185" Left="[float]517" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]157" Width="[float]18" />
+                    <Path Data="[PathGeometry]M 0.3999996,0 C 0.3999996,0 0,10.6 0,10.6 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]11.6" Id="186" Left="[float]528" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]155" Width="[float]1.39999962" />
+                    <Path Data="[PathGeometry]M 2.720013,-3 C 2.720013,-3 0,0 0,0 " Fill="[SMSolidColorBrush]#ffad1cb6" Height="[float]4" Id="187" Left="[float]534" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]163" Width="[float]3.72001266" />
+                    <Path Data="[PathGeometry]M 2.879988,2.719993 C 2.879988,2.719993 0,0 0,0 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]3.71999264" Id="188" Left="[float]534" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]157" Width="[float]3.87998772" />
+                    <Path Data="[PathGeometry]M 0,0 C 0,0 5.6,0.159997 5.6,0.159997 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]1.159997" Id="189" Left="[float]532" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]160" Width="[float]6.60000038" />
+                    <Path Data="[PathGeometry]M 0.3999996,0 C 0.3999996,0 0,10.6 0,10.6 " Fill="[SMSolidColorBrush]#ff7fff00" Height="[float]11.6" Id="190" Left="[float]14" MinHeight="[float]1" MinWidth="[float]1" ShapeBuilder="[string]" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]2" Width="[float]1.39999962" />
+                </Canvas>
+            </IconPanel>
+        </Icon>
+        <ConnectorPane Height="20" Id="11" ListViewHeight="90" ListViewWidth="150" Width="30" xmlns="http://www.ni.com/PlatformFramework">
+            <ConnectorPaneTerminal ListViewHotspot="0 35" Parameter="60" />
+            <ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 50" Parameter="35" />
+            <ConnectorPaneTerminal Hotspot="15 0" ListViewHotspot="0 65" Parameter="24" />
+            <ConnectorPaneTerminal Hotspot="30 5" ListViewHotspot="150 80" Parameter="105" />
+            <ConnectorPaneTerminal Hotspot="30 15" />
+            <ConnectorPaneTerminal Hotspot="15 20" />
+        </ConnectorPane>
+        <MethodDocumentation xmlns="http://www.ni.com/PlatformFramework" />
+        <DiagramUnplacedItems Id="12" />
+        <FrontPanelUnplacedItems Id="13" />
+        <BlockDiagram Id="14">
+            <WhileLoop Bounds="258 130 622 285" DiagramId="17" Id="16">
+                <WhileLoop.Iteration Bounds="5 255 15 15" Id="18" />
+                <WhileLoop.Condition Bounds="587 220 15 15" Id="19" />
+                <Literal Bounds="552 220 26 15" DataType="Boolean" Facade="NationalInstruments.MocCommon.Modeling.IBooleanBehavior" Id="20" Label="21" xmlns="http://www.ni.com/MocCommon">
+                    <p.Data>True</p.Data>
+                    <BooleanBehavior />
+                </Literal>
+                <Wire Id="22" Joints="N(20:Out) N(19:Input)" xmlns="http://www.ni.com/PlatformFramework" />
+                <TextNode AttachedTo="20" Bounds="552 220 23 16" Id="21" Text="stop" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+                <MethodCall Bounds="252 195 30 20" Id="34" Target="Count\ Iteration\.gvi">
+                    <p.MethodDeclaration>
+                        <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+                            <Parameter Id="T0" Desc="Reset" />
+                            <Parameter Id="L0" Desc="Enable" />
+                            <Parameter Id="L1" Desc="Direction (Up)" />
+                            <Parameter Id="R0" Desc="Iteration" />
+                        </MethodDeclaration>
+                    </p.MethodDeclaration>
+                    <Terminal DataType="Boolean" Direction="Input" Hotspot="15 0" Id="T0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Boolean" Direction="Input" Id="L0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Boolean" Direction="Input" Hotspot="0 15" Id="L1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Int32" Direction="Output" Hotspot="30 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                </MethodCall>
+                <CaseStructure Bounds="156 69 165 75" Default="45" Id="44" Selected="46" UserSelectorBounds="42 0 82 17">
+                    <CaseStructure.Case Bounds="6 6 153 63" Id="45" Pattern="False">
+                        <Wire Id="75" Joints="N(74:45) N(68:45)" xmlns="http://www.ni.com/PlatformFramework" />
+                    </CaseStructure.Case>
+                    <CaseStructure.Case Bounds="6 6 153 63" Id="46" Pattern="True">
+                        <InitializeArray Bounds="100 20 40 30" Id="40" Terminals="element=63, outArray=67, c0t0v=56" />
+                        <Wire Id="56" Joints="N(170:46) N(40:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Wire Id="63" Joints="N(79:46) v(22) N(40:element)" xmlns="http://www.ni.com/PlatformFramework" />
+                        <Wire Id="67" Joints="N(40:outArray) N(68:46)" xmlns="http://www.ni.com/PlatformFramework" />
+                    </CaseStructure.Case>
+                    <CaseStructure.Selector Bounds="-5 6 15 14" Id="47" Terminals="44=66, 45, 46" />
+                    <CaseStructure.Tunnel Bounds="155 26 15 14" Id="68" Terminals="44=91, 45=75, 46=67" />
+                    <CaseStructure.Tunnel Bounds="-5 26 15 14" Id="74" Terminals="44=73, 45=75, 46" />
+                    <CaseStructure.Tunnel Bounds="21 -5 15 14" Id="79" Terminals="44=78, 45, 46=63" />
+                    <CaseStructure.Tunnel Bounds="-5 46 15 14" Id="170" Terminals="44=169, 45, 46=56" />
+                </CaseStructure>
+                <IsFirstCall Bounds="62 15 15 15" Id="23" />
+                <DataAccessor Bounds="42 60 40 15" DataItem="24" Id="25" Label="28">
+                    <Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                </DataAccessor>
+                <LogicalOr Bounds="97 50 25 20" Id="29" Terminals="o=66, c0t0v=31, c1t0v=30" />
+                <Wire Id="30" Joints="N(25:Value) N(29:c1t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="31" Joints="N(23:First Call?: T/F) h(10) v(35) N(29:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                <TextNode AttachedTo="25" Bounds="42 41 29 16" Id="28" Text="Reset" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="66" Joints="N(29:o) h(12) v(20) B(2) N(47:44) B(2) v(105) h(133) N(34:T0)" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="73" Joints="N(72:i0) N(74:44)" xmlns="http://www.ni.com/PlatformFramework" />
+                <ReplaceArraySubset Bounds="362 95 40 40" Id="76" Terminals="inArray=91, outArray=92, c0t0v=90, c0t1v=78" />
+                <DataAccessor Bounds="132 30 40 15" DataItem="60" Id="58" Label="59">
+                    <Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                </DataAccessor>
+                <TextNode AttachedTo="58" Bounds="132 11 30 16" Id="59" Text="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="78" Joints="N(58:Value) h(10) B(1) h(155) v(95) N(76:c0t1v) B(1) N(79:44)" xmlns="http://www.ni.com/PlatformFramework" />
+                <QuotientAndRemainder Bounds="302 195 30 30" Id="86" />
+                <Wire Id="89" Joints="N(34:R0) h(7) B(1) N(86:x) B(1) v(35) N(168:x)" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="90" Joints="N(86:x-y*floor(x/y\)) h(18) B(1) N(99:x) B(1) v(-80) N(76:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="91" Joints="N(68:44) N(76:inArray)" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="92" Joints="N(76:outArray) h(26) B(1) N(71:17) B(1) v(65) N(93:array)" xmlns="http://www.ni.com/PlatformFramework" />
+                <Reverse1DArray Bounds="437 160 40 20" Id="93" />
+                <ArraySubset Bounds="542 160 40 40" Id="94" Terminals="array=102, subarray=103, index0, length0=172" />
+                <Rotate1DArray Bounds="492 160 40 30" Id="95" />
+                <Wire Id="98" Joints="N(93:reversed array) N(95:array)" xmlns="http://www.ni.com/PlatformFramework" />
+                <Increment Bounds="407 185 30 30" Id="99" />
+                <Wire Id="101" Joints="N(99:x+1) h(50) v(-15) N(95:n)" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="102" Joints="N(95:array (last n elements first\)) N(94:array)" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="103" Joints="N(94:subarray) N(104:17)" xmlns="http://www.ni.com/PlatformFramework" />
+                <MaxAndMin Bounds="367 230 30 30" Id="168">
+                    <ConfigurableDataTypeTerminal DataType="Int32" DesiredType="Boolean" Direction="Output" Hotspot="30 20" Id="min(x,y)" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                    <ConfigurableDataTypeTerminal DataType="Int32" DesiredType="Boolean" Direction="Output" Hotspot="30 5" Id="max(x,y)" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                </MaxAndMin>
+                <DataAccessor Bounds="47 115 40 15" DataItem="35" Id="36" Label="39">
+                    <Terminal DataType="Int32" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                </DataAccessor>
+                <TextNode AttachedTo="36" Bounds="10 115 32 16" Id="39" Text="N (20)" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="169" Joints="N(36:Value) h(30) B(1) N(170:44) B(1) v(95) B(3) N(86:y) B(3) v(35) N(168:y)" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="172" Joints="N(168:min(x,y\)) h(140) v(-55) N(94:length0)" xmlns="http://www.ni.com/PlatformFramework" />
+                <WhileLoop.RightShiftRegister Bounds="612 100 15 14" Id="71" Terminals="16, 17=92" />
+                <WhileLoop.LeftShiftRegister Bounds="-5 100 15 14" Id="72" RightRegister="71" Terminals="o0, i0=73" />
+                <WhileLoop.Tunnel Bounds="612 165 15 14" Id="104" Terminals="16=113, 17=103" />
+            </WhileLoop>
+            <DataAccessor Bounds="930 295 40 15" DataItem="105" Id="110" Label="112">
+                <Terminal DataType="Double[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+            </DataAccessor>
+            <TextNode AttachedTo="110" Bounds="930 276 74 16" Id="112" Text="Element Array" xmlns="http://www.ni.com/PlatformFramework" />
+            <Wire Id="113" Joints="N(104:16) N(110:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+            <Comment Bounds="405 85 294 28" Id="173" xmlns="http://www.ni.com/MocCommon">
+                <p.Text>This function will store an array of values pt by pt</p.Text>
+            </Comment>
+        </BlockDiagram>
+        <CPFrontPanel Height="[float]1600" Id="15" Width="[float]2000">
+            <Button ClickMode="[ClickMode]Press" Content="[string]Reset" Height="[float]30" Id="26" IncludeInCapture="[bool]False" IsMomentary="[bool]False" Label="[UIModel]27" Latch="[bool]False" Left="[float]179" Shape="[ButtonShape]Square" Top="[float]62" Value="{DataItemBinding Id=24}" Width="[float]75" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+            <Label Id="27" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]26" Left="[float]179" Locked="[bool]True" Text="[string]Reset" Top="[float]42" Visible="[bool]False" />
+            <NumericText Height="[float]22" Id="37" IncludeInCapture="[bool]True" Label="[UIModel]38" Left="[float]121" Top="[float]131" Value="{DataItemBinding Id=35}" ValueType="[Type]Int32" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+            <Label Id="38" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]37" Left="[float]121" Locked="[bool]True" Text="[string]N (20)" Top="[float]111" />
+            <NumericText Height="[float]22" Id="61" Label="[UIModel]62" Left="[float]121" Top="[float]186" Value="{DataItemBinding Id=60}" ValueType="[Type]Double" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+            <Label Id="62" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]61" Left="[float]121" Locked="[bool]True" Text="[string]Value" Top="[float]166" />
+            <ArrayViewer ArrayElement="[UIModel]108" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]36" Id="111" Label="[UIModel]175" Left="[float]248" Orientation="[SMOrientation]Horizontal" Rows="[int]1" Top="[float]124" Value="{DataItemBinding Id=105}" Width="[float]114" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                <p.DefaultElementValue>0</p.DefaultElementValue>
+                <NumericText Height="[float]22" Id="108" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Left="[float]53" Name="[string]Child" Top="[float]7" ValueType="[Type]Double" Width="[float]54" />
+            </ArrayViewer>
+            <Label Id="175" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]111" Left="[float]248" Locked="[bool]True" Text="[string]Element Array" Top="[float]104" />
+        </CPFrontPanel>
+        <DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="2" CallUsage="Optional" DataType="Boolean" Id="24" Name="Reset">
+            <p.DefaultValue>False</p.DefaultValue>
+        </DataItem>
+        <DataItem CallDirection="Input" CallIndex="1" CallUsage="Optional" DataType="Int32" Id="35" Name="N\ \(20\)">
+            <p.DefaultValue>20</p.DefaultValue>
+        </DataItem>
+        <DataItem CallDirection="Input" CallIndex="0" CallUsage="Required" DataType="Double" Id="60" Name="Value">
+            <p.DefaultValue>NaN</p.DefaultValue>
+        </DataItem>
+        <DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="0" DataType="Double[]" Id="105" Name="Element\ Array">
+            <p.DefaultValue>
+                <Array Lengths="0" />
+            </p.DefaultValue>
+        </DataItem>
+    </VirtualInstrument>
+</SourceFile>

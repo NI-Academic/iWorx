@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile xmlns="http://www.ni.com/PlatformFramework">
+    <SourceModelFeatureSet>
+        <ParsableNamespace AssebmlyFileVersion="2.0.0.0" FeatureSetName="LabVIEW for myDAQ" Name="http://www.ni.com/LabVIEW.VI" Version="2.0.0.9081" />
+        <ParsableNamespace AssebmlyFileVersion="2.0.0.0" FeatureSetName="LabVIEW for myDAQ" Name="http://www.ni.com/PlatformFramework" Version="2.0.0.0" />
+        <ParsableNamespace AssebmlyFileVersion="2.0.0.0" FeatureSetName="LabVIEW for myDAQ" Name="http://www.ni.com/DAQmx.LabVIEW.Extensions" Version="2.0.0.0" />
+        <ParsableNamespace AssebmlyFileVersion="2.0.0.0" FeatureSetName="LabVIEW for myDAQ" Name="http://www.ni.com/MocCommon" Version="2.0.0.0" />
+        <ParsableNamespace AssebmlyFileVersion="2.0.0.0" FeatureSetName="LabVIEW for myDAQ" Name="http://www.ni.com/Controls.LabVIEW.Design" Version="2.0.0.0" />
+    </SourceModelFeatureSet>
+    <VirtualInstrument Id="1" xmlns="http://www.ni.com/LabVIEW.VI">
+        <Icon Id="2" ListViewIconCrop="2 2 27 27" xmlns="http://www.ni.com/PlatformFramework">
+            <IconPanel Height="[float]50" Id="3" Width="[float]50">
+                <IconTemplate ClipMargin="[SMThickness]3,3,3,3" Id="4" TemplateName="Gray">
+                    <Rectangle Fill="[SMSolidColorBrush]#ff999999" Id="5" IsHitTestVisible="[bool]False" RadiusX="[float]4" RadiusY="[float]4" />
+                    <Rectangle Fill="[SMSolidColorBrush]#ffe6e6e6" Id="6" IsHitTestVisible="[bool]False" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#ffffffff" />
+                    <Rectangle Fill="[SMLinearGradientBrush]{Start: 0.5 0}, {End: 0.5 1}, {Stops: {Stop: #ffe6e6e6 0}, {Stop: #ffd9d9d9 1}}" Height="[float]6" Id="7" IsHitTestVisible="[bool]False" Margin="[SMThickness]2,0,2,2" RadiusX="[float]2" RadiusY="[float]2" VerticalAlignment="[VerticalAlignment]Bottom" />
+                    <Rectangle Fill="[SMLinearGradientBrush]{Start: 0.5 0}, {End: 0.5 1}, {Stops: {Stop: #fffafafa 0}, {Stop: #ffe6e6e6 1}}" Height="[float]6" Id="8" IsHitTestVisible="[bool]False" Margin="[SMThickness]2,2,2,0" RadiusX="[float]2" RadiusY="[float]2" VerticalAlignment="[VerticalAlignment]Top" />
+                    <FileNameText FileNameText="[bool]True" Font="[SMFont]0,10.5," HorizontalAlignment="[HorizontalAlignment]Left" Id="9" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Event Marker" TextWrapping="[TextWrapping]Wrap" VerticalAlignment="[VerticalAlignment]Top" />
+                </IconTemplate>
+                <Canvas Background="[SMSolidColorBrush]#00ffffff" ClipToBounds="[bool]True" Id="10" Margin="[SMThickness]3,3,3,3" />
+            </IconPanel>
+        </Icon>
+        <ConnectorPane Height="50" Id="11" ListViewHeight="30" ListViewWidth="150" Width="50" xmlns="http://www.ni.com/PlatformFramework">
+            <ConnectorPaneTerminal />
+            <ConnectorPaneTerminal Hotspot="0 15" />
+            <ConnectorPaneTerminal Hotspot="0 25" />
+            <ConnectorPaneTerminal Hotspot="0 35" />
+            <ConnectorPaneTerminal Hotspot="0 45" />
+            <ConnectorPaneTerminal Hotspot="15 0" />
+            <ConnectorPaneTerminal Hotspot="25 0" />
+            <ConnectorPaneTerminal Hotspot="35 0" />
+            <ConnectorPaneTerminal Hotspot="50 5" />
+            <ConnectorPaneTerminal Hotspot="50 15" />
+            <ConnectorPaneTerminal Hotspot="50 25" />
+            <ConnectorPaneTerminal Hotspot="50 35" />
+            <ConnectorPaneTerminal Hotspot="50 45" />
+            <ConnectorPaneTerminal Hotspot="15 50" />
+            <ConnectorPaneTerminal Hotspot="25 50" />
+            <ConnectorPaneTerminal Hotspot="35 50" />
+        </ConnectorPane>
+        <MethodDocumentation xmlns="http://www.ni.com/PlatformFramework" />
+        <DiagramUnplacedItems Id="12" />
+        <FrontPanelUnplacedItems Id="13" />
+        <BlockDiagram Id="14">
+            <TaskResource Bounds="190 175 50 50" Id="16" xmlns="http://www.ni.com/DAQmx.LabVIEW.Extensions">
+                <Task SampClk.Rate="1000" SampClk.Src="" SampQuant.SampMode="Continuous Samples" SampQuant.SampPerChan="100" SampTimingType="Sample Clock">
+                    <Channel AI.Max="10" AI.MeasType="Voltage" AI.Min="-10" AI.TermCfg="Differential" AI.Voltage.Units="Volts" ChanType="Analog Input" Name="Voltage" PhysicalChanName="&lt;FindSingleDevice ProductNum=0x755B /&gt;/ai0" />
+                    <Channel AI.Max="10" AI.MeasType="Voltage" AI.Min="-10" AI.TermCfg="Differential" AI.Voltage.Units="Volts" ChanType="Analog Input" Name="ai1" PhysicalChanName="&lt;FindSingleDevice ProductNum=0x755B /&gt;/ai1" />
+                </Task>
+            </TaskResource>
+            <Wire Id="17" Joints="N(16:task out) N(20:18)" xmlns="http://www.ni.com/PlatformFramework" />
+            <WhileLoop Bounds="230 60 715 405" DiagramId="19" Id="18">
+                <WhileLoop.Iteration Bounds="5 375 15 15" Id="21" />
+                <WhileLoop.Condition Bounds="575 245 15 15" Id="22" />
+                <Wire Id="26" Joints="N(20:19) N(48:task in)" xmlns="http://www.ni.com/PlatformFramework" />
+                <ArrayIndex Bounds="220 120 40 30" Id="28" Terminals="array=29, c0t0v=33, c0t1v=141" />
+                <Wire Id="29" Joints="N(48:data) N(28:array)" xmlns="http://www.ni.com/PlatformFramework" />
+                <DataAccessor Bounds="90 250 40 15" DataItem="55" Id="31" Label="32">
+                    <Terminal DataType="@1236039592_0" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                </DataAccessor>
+                <TextNode AttachedTo="31" Bounds="90 231 82 16" Id="32" Text="Sensor Channel" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="33" Joints="N(31:Value) h(76) v(-110) N(28:c0t0v)" xmlns="http://www.ni.com/PlatformFramework" />
+                <DataAccessor Bounds="490 215 40 15" DataItem="56" Id="34" Label="35">
+                    <Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                </DataAccessor>
+                <TextNode AttachedTo="34" Bounds="535 215 57 16" Id="35" Text="Raw Signal" xmlns="http://www.ni.com/PlatformFramework" />
+                <StatisticsSingleChannel Bounds="365 235 40 40" Id="36" Target="Statistics_Waveform_1Chan\.gvi">
+                    <p.MethodDeclaration>
+                        <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+                            <Parameter Id="L0" Desc="signal" />
+                            <Parameter Id="L3" Desc="error in" />
+                            <Parameter Id="R0" Desc="mean" />
+                            <Parameter Id="B0" Desc="range" />
+                            <Parameter Id="R1" Desc="standard deviation" />
+                            <Parameter Id="R3" Desc="error out" />
+                            <Parameter Id="R2" Desc="variance" />
+                            <Parameter Id="T1" Desc="mode" />
+                            <Parameter Id="T0" Desc="median" />
+                            <Parameter Id="B1" Desc="IQR" />
+                        </MethodDeclaration>
+                    </p.MethodDeclaration>
+                    <Terminal DataType="Wfm(Double)" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Error" Direction="Input" Hotspot="0 35" Id="L3" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Double" Direction="Output" Hotspot="15 40" Id="B0" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Double" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Double" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Double" Direction="Output" Hotspot="25 0" Id="T1" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Double" Direction="Output" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Double[]" Direction="Output" Hotspot="25 40" Id="B1" xmlns="http://www.ni.com/PlatformFramework" />
+                </StatisticsSingleChannel>
+                <DataAccessor Bounds="495 245 40 15" DataItem="58" Id="43" Label="45">
+                    <Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                </DataAccessor>
+                <Wire Id="44" Joints="N(43:Value) N(22:Input)" xmlns="http://www.ni.com/PlatformFramework" />
+                <TextNode AttachedTo="43" Bounds="495 263 23 16" Id="45" Text="stop" xmlns="http://www.ni.com/PlatformFramework" />
+                <DataAccessor Bounds="495 40 40 15" DataItem="59" Id="46" Label="47">
+                    <Terminal DataType="Wfm(Double)" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                </DataAccessor>
+                <TextNode AttachedTo="46" Bounds="540 40 97 16" Id="47" Text="Data History Chart" xmlns="http://www.ni.com/PlatformFramework" />
+                <ReadNode Bounds="80 110 50 50" ChannelMultiplicity="Multiple" Id="48" SampleMultiplicity="Multiple" xmlns="http://www.ni.com/DAQmx.LabVIEW.Extensions" />
+                <DataAccessor Bounds="490 185 40 15" DataItem="60" Id="49" Label="50">
+                    <Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                </DataAccessor>
+                <TextNode AttachedTo="49" Bounds="535 185 75 16" Id="50" Text="Raw Signal (V)" xmlns="http://www.ni.com/PlatformFramework" />
+                <Comment Bounds="60 170 118 42" Id="51" xmlns="http://www.ni.com/MocCommon">
+                    <p.Text>"Read in a voltage \r\nfor each channel "</p.Text>
+                </Comment>
+                <Comment Bounds="70 45 203 28" Id="52" xmlns="http://www.ni.com/MocCommon">
+                    <p.Text>Set Cal Data Coef to match Chart</p.Text>
+                </Comment>
+                <MethodCall Bounds="295 140 40 40" Id="91" Target="Event\ Marker\ SubVI\.gvi">
+                    <p.MethodDeclaration>
+                        <MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+                            <Parameter Id="L0" Desc="Waveform In" />
+                            <Parameter Id="T0" Desc="Reset Count" />
+                            <Parameter Id="R0" Desc="Waveform Out" />
+                            <Parameter Id="R3" Desc="Two Edge Seperation" />
+                            <Parameter Id="R1" Desc="Press Count" />
+                            <Parameter Id="R2" Desc="Button Press Duration" />
+                            <Parameter Id="B0" Desc="Rising Edge Times" />
+                            <Parameter Id="B1" Desc="Falling Edge Times" />
+                        </MethodDeclaration>
+                    </p.MethodDeclaration>
+                    <Terminal DataType="Wfm(Double)" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Boolean" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Wfm(Double)" Direction="Output" Hotspot="40 5" Id="R0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Double" Direction="Output" Hotspot="40 35" Id="R3" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Int32" Direction="Output" Hotspot="40 15" Id="R1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Double" Direction="Output" Hotspot="40 25" Id="R2" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Timestamp[]" Direction="Output" Hotspot="15 40" Id="B0" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                    <Terminal DataType="Timestamp[]" Direction="Output" Hotspot="25 40" Id="B1" Usage="Optional" xmlns="http://www.ni.com/PlatformFramework" />
+                </MethodCall>
+                <DataAccessor Bounds="490 70 40 15" DataItem="99" Id="101" Label="103">
+                    <Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                </DataAccessor>
+                <Wire Id="104" Joints="N(91:R2) h(65) v(-90) N(101:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+                <TextNode AttachedTo="101" Bounds="535 70 116 16" Id="103" Text="Button Press Duration" xmlns="http://www.ni.com/PlatformFramework" />
+                <DataAccessor Bounds="490 90 40 15" DataItem="105" Id="107" Label="109">
+                    <Terminal DataType="Double" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                </DataAccessor>
+                <Wire Id="110" Joints="N(91:R3) h(73) v(-80) N(107:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+                <TextNode AttachedTo="107" Bounds="535 90 112 16" Id="109" Text="Two Edge Seperation" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="141" Joints="N(28:c0t1v) h(18) B(1) N(91:L0) B(1) v(-100) N(46:Value) B(1) v(95) B(5) N(36:L0) B(5) v(80) N(142:instance in)" xmlns="http://www.ni.com/PlatformFramework" />
+                <PropertyNode Bounds="295 315 150 45" HasErrorTerminals="False" Id="142" InstanceDataType="Wfm(Double)" Template="List" Terminals="instance in=141~0:5, instance out~150:5, c0t0v=158~150:35">
+                    <p.PropertyItem IsWrite="False">
+                        <PathElement>Y</PathElement>
+                    </p.PropertyItem>
+                </PropertyNode>
+                <AddArrayElements Bounds="465 335 30 30" Id="157" />
+                <Wire Id="158" Joints="N(142:c0t0v) h(11) B(1) N(157:numeric array) B(1) v(20) N(159:array)" xmlns="http://www.ni.com/PlatformFramework" />
+                <ArraySize Bounds="465 365 40 20" Id="159" />
+                <Divide Bounds="540 345 30 30" Id="161" />
+                <Wire Id="162" Joints="N(157:sum) N(161:x)" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="163" Joints="N(159:size(s\)) h(28) v(-15) N(161:y)" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="164" Joints="N(161:x/y) h(5) v(-60) h(-96) v(-80) B(4) N(34:Value) B(4) v(-30) N(49:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+                <Literal Bounds="10 130 40 15" DataType="Int32" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="166" Label="167" xmlns="http://www.ni.com/MocCommon">
+                    <p.Data>50</p.Data>
+                    <NumericBehavior Interpretation="Exact" />
+                </Literal>
+                <TextNode AttachedTo="166" Bounds="10 130 102 16" Id="167" Text="number of samples" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+                <Wire Id="168" Joints="N(166:Out) N(48:number of samples)" xmlns="http://www.ni.com/PlatformFramework" />
+                <WaitUntilNextMsMultiple Bounds="175 310 30 30" Id="169" />
+                <Literal Bounds="100 320 40 15" DataType="UInt32" Facade="NationalInstruments.MocCommon.Modeling.INumericBehavior" Id="170" Label="171" xmlns="http://www.ni.com/MocCommon">
+                    <p.Data>50</p.Data>
+                    <NumericBehavior Interpretation="Exact" />
+                </Literal>
+                <Wire Id="172" Joints="N(170:Out) N(169:millisecond multiple)" xmlns="http://www.ni.com/PlatformFramework" />
+                <TextNode AttachedTo="170" Bounds="100 320 106 16" Id="171" Text="millisecond multiple" Visible="False" xmlns="http://www.ni.com/PlatformFramework" />
+                <DataAccessor Bounds="490 150 40 15" DataItem="173" Id="178" Label="180">
+                    <Terminal DataType="Timestamp[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                </DataAccessor>
+                <Wire Id="181" Joints="N(91:B0) v(47) h(148) v(-72) N(178:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+                <TextNode AttachedTo="178" Bounds="535 150 96 16" Id="180" Text="Rising Edge Times" xmlns="http://www.ni.com/PlatformFramework" />
+                <DataAccessor Bounds="490 120 40 15" DataItem="182" Id="187" Label="189">
+                    <Terminal DataType="Timestamp[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+                </DataAccessor>
+                <Wire Id="190" Joints="N(91:B1) v(16) h(119) v(-71) N(187:Value)" xmlns="http://www.ni.com/PlatformFramework" />
+                <TextNode AttachedTo="187" Bounds="535 120 98 16" Id="189" Text="Falling Edge Times" xmlns="http://www.ni.com/PlatformFramework" />
+                <WhileLoop.Tunnel Bounds="-5 115 15 14" Id="20" Terminals="18=17, 19=26" />
+            </WhileLoop>
+            <Comment Bounds="120 110 147 55" Id="53" xmlns="http://www.ni.com/MocCommon">
+                <p.Text>"Mode: AI Voltage Input\r\nSampling: Continuous\r\nRate: 1000Hz"</p.Text>
+            </Comment>
+        </BlockDiagram>
+        <CPFrontPanel Height="[float]1600" Id="15" Width="[float]2000">
+            <EnumSelector AllowUndefinedValueEntry="[bool]False" Height="[float]22" Id="71" IsTypeAheadEnabled="[bool]True" Label="[UIModel]74" Left="[float]90" Top="[float]32" Value="{DataItemBinding Id=55}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]172" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                <EnumSelectorInfo DisplayValue="[string]Channel 1" Id="72" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+                <EnumSelectorInfo DisplayValue="[string]Channel 2" Id="73" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+            </EnumSelector>
+            <Label Id="74" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]71" Left="[float]90" Locked="[bool]True" Text="[string]Sensor Channel" Top="[float]12" />
+            <Meter Height="[float]112.5" Id="75" InteractionMode="[NumericPointerInteractionModes]ReadOnly" Label="[UIModel]76" LabelPresenter="[string]LV:N1" Left="[float]90" Maximum="[double]10" MinHeight="[float]92" MinWidth="[float]135" Minimum="[double]-10" Top="[float]90" Value="{DataItemBinding Id=56}" Width="[float]165" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+            <Label Id="76" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]75" Left="[float]90" Locked="[bool]True" Text="[string]Raw Signal" Top="[float]70" />
+            <NumericText Height="[float]22" Id="89" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]90" Left="[float]90" Top="[float]238.5" Value="{DataItemBinding Id=60}" ValueFormatter="[string]LV:N2" ValueType="[Type]Double" Width="[float]172" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+            <Label Id="90" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]89" Left="[float]90" Locked="[bool]True" Text="[string]Raw Signal (V)" Top="[float]218.5" />
+            <Chart BorderThickness="[SMThickness]1,1,1,1" DataSource="{DataItemBinding Id=59}" Height="[float]444.5" Id="81" Label="[UIModel]88" Left="[float]595" PlotAreaMargin="[SMThickness]58,18,25,53" PreferIndexData="[bool]False" RenderMode="[RenderMode]Hardware" SuppressScaleLayout="[bool]False" Top="[float]32" Width="[float]593" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                <Axis Adjuster="[RangeAdjuster]ContinuousChart" Id="82" Label="[string]Time" MajorDivisions="[UIModel]85" MajorGridLines="[UIModel]139" Orientation="[SMOrientation]Horizontal" Range="[IRange]74.661300700000169, 90.176300700000155, System.Double" ValueType="[Type]Double">
+                    <RangeLabeledDivisions Id="85" LabelPresenter="[string]LVRelativeTime:" />
+                    <GridLines Id="139" />
+                </Axis>
+                <Axis Adjuster="[RangeAdjuster]None" Id="83" Label="[string]Amplitude" MajorDivisions="[UIModel]86" MajorGridLines="[UIModel]87" Orientation="[SMOrientation]Vertical" Range="[IRange]0, 5, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double">
+                    <RangeLabeledDivisions Id="86" Mode="[RangeDivisionsMode]Auto" />
+                    <GridLines Id="87" />
+                </Axis>
+                <Plot HorizontalScale="[UIModel]82" Id="84" Label="[string]Plot" VerticalScale="[UIModel]83" />
+            </Chart>
+            <Label Id="88" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]81" Left="[float]595" Locked="[bool]True" Text="[string]Data History Chart" Top="[float]12" />
+            <Button Content="[string]Stop" Foreground="[SMColor]#ffff0000" Height="[float]30" Id="79" IncludeInCapture="[bool]False" IsMomentary="[bool]False" Label="[UIModel]80" Latch="[bool]True" Left="[float]90" Shape="[ButtonShape]Square" Top="[float]446.5" Value="{DataItemBinding Id=58}" Width="[float]172" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+            <Label Id="80" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]79" Left="[float]90" Locked="[bool]True" Text="[string]stop" Top="[float]426.5" Visible="[bool]False" />
+            <NumericText Height="[float]22" Id="102" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]132" Left="[float]90" Top="[float]296.5" Value="{DataItemBinding Id=99}" ValueType="[Type]Double" Width="[float]172" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+            <Label Id="132" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]102" Left="[float]90" Locked="[bool]True" Text="[string]Button Press Duration" Top="[float]276.5" />
+            <NumericText Height="[float]22" Id="108" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Label="[UIModel]133" Left="[float]90" Top="[float]348" Value="{DataItemBinding Id=105}" ValueType="[Type]Double" Width="[float]172" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+            <Label Id="133" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]108" Left="[float]90" Locked="[bool]True" Text="[string]Two Edge Seperation" Top="[float]328" />
+            <ArrayViewer ArrayElement="[UIModel]176" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]180" Id="179" Label="[UIModel]191" Left="[float]311" Orientation="[SMOrientation]Vertical" Rows="[int]7" Top="[float]32" Value="{DataItemBinding Id=173}" Width="[float]235" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                <p.DefaultElementValue>60052752000;0;Utc</p.DefaultElementValue>
+                <TimeStampTextBox Height="[float]22" Id="176" InteractionMode="[TimeStampTextBoxInteractionModes]ReadOnly" Left="[float]53" MinHeight="[float]22" MinWidth="[float]40" Name="[string]Child" Top="[float]7" Width="[float]175" />
+            </ArrayViewer>
+            <Label Id="191" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]179" Left="[float]311" Locked="[bool]True" Text="[string]Rising Edge Times" Top="[float]12" />
+            <ArrayViewer ArrayElement="[UIModel]185" BaseName="[string]Array" Columns="[int]1" Dimensions="[int]1" Height="[float]204" Id="188" Label="[UIModel]192" Left="[float]311" Orientation="[SMOrientation]Vertical" Rows="[int]8" Top="[float]238.5" Value="{DataItemBinding Id=182}" Width="[float]235" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+                <p.DefaultElementValue>60052752000;0;Utc</p.DefaultElementValue>
+                <TimeStampTextBox Height="[float]22" Id="185" InteractionMode="[TimeStampTextBoxInteractionModes]ReadOnly" MinHeight="[float]22" MinWidth="[float]40" Name="[string]Child" Width="[float]175" />
+            </ArrayViewer>
+            <Label Id="192" LabelAlignment="[PartAlignment]TopLeft" LabelOwner="[UIModel]188" Left="[float]311" Locked="[bool]True" Text="[string]Falling Edge Times" Top="[float]218.5" />
+        </CPFrontPanel>
+        <DataItem DataType="@1236039592_0" Id="55" Name="Sensor\ Channel">
+            <p.DefaultValue>0</p.DefaultValue>
+        </DataItem>
+        <DataItem AdaptToDiagramType="True" DataType="Double" Id="56" Name="Raw\ Signal">
+            <p.DefaultValue>-0.75940271461149678</p.DefaultValue>
+        </DataItem>
+        <DataItem DataType="Boolean" Id="58" IsLatched="True" Name="stop">
+            <p.DefaultValue>False</p.DefaultValue>
+        </DataItem>
+        <DataItem AdaptToDiagramType="True" BufferSize="1024" DataType="Wfm(Double)" Id="59" Name="Data\ History\ Chart" />
+        <DataItem AdaptToDiagramType="True" DataType="Double" Id="60" Name="Raw\ Signal\ \(V\)">
+            <p.DefaultValue>-0.75940271461149678</p.DefaultValue>
+        </DataItem>
+        <DataItem AdaptToDiagramType="True" DataType="Double" Id="99" Name="Button\ Press\ Duration">
+            <p.DefaultValue>0</p.DefaultValue>
+        </DataItem>
+        <DataItem AdaptToDiagramType="True" DataType="Double" Id="105" Name="Two\ Edge\ Seperation">
+            <p.DefaultValue>0</p.DefaultValue>
+        </DataItem>
+        <DataItem AdaptToDiagramType="True" DataType="Timestamp[]" Id="173" Name="Rising\ Edge\ Times">
+            <p.DefaultValue>
+                <Array Lengths="0" />
+            </p.DefaultValue>
+        </DataItem>
+        <DataItem AdaptToDiagramType="True" DataType="Timestamp[]" Id="182" Name="Falling\ Edge\ Times">
+            <p.DefaultValue>
+                <Array Lengths="0" />
+            </p.DefaultValue>
+        </DataItem>
+        <DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+            <p.TypeReference TypeId="1236039592_0">
+                <Enumeration Name="Enum">
+                    <Members>
+                        <EnumerationMember Value="0" Name="Channel 1" />
+                        <EnumerationMember Value="1" Name="Channel 2" />
+                    </Members>
+                    <DataType>
+                        <UInt16 />
+                    </DataType>
+                </Enumeration>
+            </p.TypeReference>
+        </DataTypeReferenceTable>
+    </VirtualInstrument>
+</SourceFile>
