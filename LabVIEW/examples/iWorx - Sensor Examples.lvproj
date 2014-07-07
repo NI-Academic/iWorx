@@ -84,6 +84,8 @@
 			<Item Name="iWorx Light &amp; Laser SubVI (Periodic).vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Light &amp; Laser SubVI (Periodic).vi"/>
 		</Item>
 		<Item Name="Spirometer Flow Integration.vi" Type="VI" URL="../../vi.lib/iWorx/Spirometer Flow Integration.vi"/>
+		<Item Name="Control Documentation.vi" Type="VI" URL="../../../helper Code/Control Documentation.vi"/>
+		<Item Name="Control Documentation.ctl" Type="VI" URL="../../../helper Code/Control Documentation.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Append Waveforms.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Append Waveforms.vi"/>
@@ -255,6 +257,8 @@
 				<Item Name="WDT Get Waveform Subset I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset I16.vi"/>
 				<Item Name="WDT Get Waveform Subset I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset I32.vi"/>
 				<Item Name="WDT Get Waveform Subset SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset SGL.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
