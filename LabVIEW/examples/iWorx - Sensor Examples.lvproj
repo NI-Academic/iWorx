@@ -84,6 +84,7 @@
 			<Item Name="iWorx Light &amp; Laser SubVI (Periodic).vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Light &amp; Laser SubVI (Periodic).vi"/>
 			<Item Name="Spirometer Flow Integration.vi" Type="VI" URL="../../vi.lib/iWorx/Spirometer Flow Integration.vi"/>
 		</Item>
+		<Item Name="Launch Set Up.vi" Type="VI" URL="../../vi.lib/iWorx/Launch Set Up.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Append Waveforms.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Append Waveforms.vi"/>
