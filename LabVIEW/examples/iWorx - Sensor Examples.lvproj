@@ -14,7 +14,7 @@
 		<Item Name="Sensor Examples" Type="Folder">
 			<Item Name="iWorx - Blood Presure.vi" Type="VI" URL="../iWorx - Blood Presure.vi"/>
 			<Item Name="iWorx - Colorimeter.vi" Type="VI" URL="../iWorx - Colorimeter.vi"/>
-			<Item Name="iWorx - Conductivity_.vi" Type="VI" URL="../iWorx - Conductivity_.vi"/>
+			<Item Name="iWorx - Conductivity.vi" Type="VI" URL="../iWorx - Conductivity.vi"/>
 			<Item Name="iWorx - Dissolved Oxygen.vi" Type="VI" URL="../iWorx - Dissolved Oxygen.vi"/>
 			<Item Name="iWorx - Drop Counter.vi" Type="VI" URL="../iWorx - Drop Counter.vi"/>
 			<Item Name="iWorx - Event Marker.vi" Type="VI" URL="../iWorx - Event Marker.vi"/>
@@ -43,6 +43,7 @@
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Set Up Dialog" Type="Folder">
+				<Item Name="Spreadsheet Info Dialog.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Spreadsheet Info Dialog.vi"/>
 				<Item Name="Set Up Dialog - Blood Pressure.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Blood Pressure.vi"/>
 				<Item Name="Set Up Dialog - Circulation Lab.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Circulation Lab.vi"/>
 				<Item Name="Set Up Dialog - Colorimeter.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Colorimeter.vi"/>
@@ -83,8 +84,15 @@
 			<Item Name="iWorx Thermistor Scaling.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Thermistor Scaling.vi"/>
 			<Item Name="iWorx Light &amp; Laser SubVI (Periodic).vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Light &amp; Laser SubVI (Periodic).vi"/>
 			<Item Name="Spirometer Flow Integration.vi" Type="VI" URL="../../vi.lib/iWorx/Spirometer Flow Integration.vi"/>
+			<Item Name="Launch Set Up.vi" Type="VI" URL="../../vi.lib/iWorx/Launch Set Up.vi"/>
+			<Item Name="myDAQ Errors.vi" Type="VI" URL="../../vi.lib/iWorx/myDAQ Errors.vi"/>
+			<Item Name="Get Visible Chart Data.vi" Type="VI" URL="../../vi.lib/iWorx/Get Visible Chart Data.vi"/>
 		</Item>
-		<Item Name="Launch Set Up.vi" Type="VI" URL="../../vi.lib/iWorx/Launch Set Up.vi"/>
+		<Item Name="Question Button.ctl" Type="VI" URL="../../../../../Hunter Drive/Graphics/Controls/Info Button/Question Button.ctl"/>
+		<Item Name="iWorx Chart Autoscale.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Chart Autoscale.vi"/>
+		<Item Name="iWorx Set Points.ctl" Type="VI" URL="../../vi.lib/iWorx/iWorx Set Points.ctl"/>
+		<Item Name="Reset Button.ctl" Type="VI" URL="../../../../../Hunter Drive/Graphics/Controls/Info Button/Reset Button.ctl"/>
+		<Item Name="Reset Graph Scale.vi" Type="VI" URL="../../vi.lib/iWorx/Reset Graph Scale.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Append Waveforms.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Append Waveforms.vi"/>
@@ -255,36 +263,7 @@
 				<Item Name="WDT Get Waveform Subset I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset I16.vi"/>
 				<Item Name="WDT Get Waveform Subset I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset I32.vi"/>
 				<Item Name="WDT Get Waveform Subset SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Get Waveform Subset SGL.vi"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
