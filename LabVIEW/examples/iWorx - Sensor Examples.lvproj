@@ -87,14 +87,15 @@
 			<Item Name="Launch Set Up.vi" Type="VI" URL="../../vi.lib/iWorx/Launch Set Up.vi"/>
 			<Item Name="myDAQ Errors.vi" Type="VI" URL="../../vi.lib/iWorx/myDAQ Errors.vi"/>
 			<Item Name="Get Visible Chart Data.vi" Type="VI" URL="../../vi.lib/iWorx/Get Visible Chart Data.vi"/>
+			<Item Name="Move to Origin.vi" Type="VI" URL="../../vi.lib/iWorx/Move to Origin.vi"/>
+			<Item Name="iWorx Chart Autoscale.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Chart Autoscale.vi"/>
+			<Item Name="Reset Graph Scale.vi" Type="VI" URL="../../vi.lib/iWorx/Reset Graph Scale.vi"/>
 		</Item>
 		<Item Name="Question Button.ctl" Type="VI" URL="../../../../../Hunter Drive/Graphics/Controls/Info Button/Question Button.ctl"/>
-		<Item Name="iWorx Chart Autoscale.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Chart Autoscale.vi"/>
 		<Item Name="iWorx Set Points.ctl" Type="VI" URL="../../vi.lib/iWorx/iWorx Set Points.ctl"/>
 		<Item Name="Reset Button.ctl" Type="VI" URL="../../../../../Hunter Drive/Graphics/Controls/Info Button/Reset Button.ctl"/>
-		<Item Name="Reset Graph Scale.vi" Type="VI" URL="../../vi.lib/iWorx/Reset Graph Scale.vi"/>
-		<Item Name="nPoints Concept - Microphone.vi" Type="VI" URL="../../../../nPoints/nPoints Concept - Microphone.vi"/>
 		<Item Name="iWorx New Distance.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx New Distance.vi"/>
+		<Item Name="iWorx Find myDAQ.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Find myDAQ.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Append Waveforms.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Append Waveforms.vi"/>
@@ -317,6 +318,8 @@
 				<Item Name="DAQmx Start Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Start Task.vi"/>
 				<Item Name="DAQmx Is Task Done.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Is Task Done.vi"/>
 				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
