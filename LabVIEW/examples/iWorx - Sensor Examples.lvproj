@@ -20,20 +20,19 @@
 			<Item Name="_iWorx - Pulse.vi" Type="VI" URL="../_iWorx - Pulse.vi"/>
 			<Item Name="_iWorx - Event Marker.vi" Type="VI" URL="../_iWorx - Event Marker.vi"/>
 			<Item Name="_iWorx - Goniometer.vi" Type="VI" URL="../_iWorx - Goniometer.vi"/>
-			<Item Name="iWorx - Colorimeter.vi" Type="VI" URL="../iWorx - Colorimeter.vi"/>
-			<Item Name="iWorx - Dissolved Oxygen.vi" Type="VI" URL="../iWorx - Dissolved Oxygen.vi"/>
-			<Item Name="iWorx - Drop Counter.vi" Type="VI" URL="../iWorx - Drop Counter.vi"/>
+			<Item Name="_iWorx - Respiration Belt.vi" Type="VI" URL="../_iWorx - Respiration Belt.vi"/>
+			<Item Name="_iWorx - Drop Counter.vi" Type="VI" URL="../_iWorx - Drop Counter.vi"/>
+			<Item Name="_iWorx - Microphone.vi" Type="VI" URL="../_iWorx - Microphone.vi"/>
+			<Item Name="_iWorx - Colorimeter.vi" Type="VI" URL="../_iWorx - Colorimeter.vi"/>
+			<Item Name="_iWorx - Dissolved Oxygen.vi" Type="VI" URL="../_iWorx - Dissolved Oxygen.vi"/>
+			<Item Name="_iWorx - Humidity.vi" Type="VI" URL="../_iWorx - Humidity.vi"/>
 			<Item Name="iWorx - Force.vi" Type="VI" URL="../iWorx - Force.vi"/>
-			<Item Name="iWorx - Goniometer.vi" Type="VI" URL="../iWorx - Goniometer.vi"/>
 			<Item Name="iWorx - Heart Sounds.vi" Type="VI" URL="../iWorx - Heart Sounds.vi"/>
-			<Item Name="iWorx - Humidity.vi" Type="VI" URL="../iWorx - Humidity.vi"/>
 			<Item Name="iWorx - Light &amp; Laser.vi" Type="VI" URL="../iWorx - Light &amp; Laser.vi"/>
 			<Item Name="iWorx - Magnetic Field.vi" Type="VI" URL="../iWorx - Magnetic Field.vi"/>
-			<Item Name="iWorx - Microphone.vi" Type="VI" URL="../iWorx - Microphone.vi"/>
 			<Item Name="iWorx - Motion.vi" Type="VI" URL="../iWorx - Motion.vi"/>
 			<Item Name="iWorx - pH.vi" Type="VI" URL="../iWorx - pH.vi"/>
 			<Item Name="iWorx - Polar Heart Rate Monitor.vi" Type="VI" URL="../iWorx - Polar Heart Rate Monitor.vi"/>
-			<Item Name="iWorx - Respiration Belt.vi" Type="VI" URL="../iWorx - Respiration Belt.vi"/>
 			<Item Name="iWorx - Spirometer.vi" Type="VI" URL="../iWorx - Spirometer.vi"/>
 			<Item Name="iWorx - Turbidity.vi" Type="VI" URL="../iWorx - Turbidity.vi"/>
 		</Item>
@@ -53,10 +52,11 @@
 				<Item Name="Set Up Dialog - Thermistor.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Thermistor.vi"/>
 				<Item Name="Set Up Dialog - Event Marker.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Event Marker.vi"/>
 				<Item Name="Set Up Dialog - Goniometer .vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Goniometer .vi"/>
+				<Item Name="Set Up Dialog - Respiration belt.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Respiration belt.vi"/>
+				<Item Name="Set Up Dialog - Drop Counter.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Drop Counter.vi"/>
 				<Item Name="Set Up Dialog - Circulation Lab.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Circulation Lab.vi"/>
 				<Item Name="Set Up Dialog - Colorimeter.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Colorimeter.vi"/>
 				<Item Name="Set Up Dialog - Dissolved Oxygen.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Dissolved Oxygen.vi"/>
-				<Item Name="Set Up Dialog - Drop Counter.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Drop Counter.vi"/>
 				<Item Name="Set Up Dialog - Force.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Force.vi"/>
 				<Item Name="Set Up Dialog - Heart Sounds.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Heart Sounds.vi"/>
 				<Item Name="Set Up Dialog - Humidity.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Humidity.vi"/>
@@ -67,7 +67,6 @@
 				<Item Name="Set Up Dialog - Periodic Motion Lab.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Periodic Motion Lab.vi"/>
 				<Item Name="Set Up Dialog - pH.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - pH.vi"/>
 				<Item Name="Set Up Dialog - Polar Heart Rate.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Polar Heart Rate.vi"/>
-				<Item Name="Set Up Dialog - Respiration belt.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Respiration belt.vi"/>
 				<Item Name="Set Up Dialog - Spirometer.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Spirometer.vi"/>
 				<Item Name="Set Up Dialog - Turbidity.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Turbidity.vi"/>
 				<Item Name="Set Up Dialog - Water Quality.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Water Quality.vi"/>
@@ -321,10 +320,7 @@
 				<Item Name="DAQmx Stop Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Stop Task.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
-				<Item Name="DWDT Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Error Code.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
-				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -356,6 +352,7 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="DWDT Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Error Code.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
