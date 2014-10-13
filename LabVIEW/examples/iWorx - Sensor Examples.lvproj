@@ -26,9 +26,9 @@
 			<Item Name="_iWorx - Colorimeter.vi" Type="VI" URL="../_iWorx - Colorimeter.vi"/>
 			<Item Name="_iWorx - Dissolved Oxygen.vi" Type="VI" URL="../_iWorx - Dissolved Oxygen.vi"/>
 			<Item Name="_iWorx - Humidity.vi" Type="VI" URL="../_iWorx - Humidity.vi"/>
-			<Item Name="iWorx - Force.vi" Type="VI" URL="../iWorx - Force.vi"/>
-			<Item Name="iWorx - Heart Sounds.vi" Type="VI" URL="../iWorx - Heart Sounds.vi"/>
-			<Item Name="iWorx - Light &amp; Laser.vi" Type="VI" URL="../iWorx - Light &amp; Laser.vi"/>
+			<Item Name="_iWorx - Force.vi" Type="VI" URL="../_iWorx - Force.vi"/>
+			<Item Name="_iWorx - Heart Sounds.vi" Type="VI" URL="../_iWorx - Heart Sounds.vi"/>
+			<Item Name="_iWorx - Light &amp; Laser.vi" Type="VI" URL="../_iWorx - Light &amp; Laser.vi"/>
 			<Item Name="iWorx - Magnetic Field.vi" Type="VI" URL="../iWorx - Magnetic Field.vi"/>
 			<Item Name="iWorx - Motion.vi" Type="VI" URL="../iWorx - Motion.vi"/>
 			<Item Name="iWorx - pH.vi" Type="VI" URL="../iWorx - pH.vi"/>
