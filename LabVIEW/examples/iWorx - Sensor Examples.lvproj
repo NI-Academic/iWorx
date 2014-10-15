@@ -12,28 +12,28 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Sensor Examples" Type="Folder">
-			<Item Name="_iWorx - Conductivity.vi" Type="VI" URL="../_iWorx - Conductivity.vi"/>
-			<Item Name="_iWorx - Gas Pressure.vi" Type="VI" URL="../_iWorx - Gas Pressure.vi"/>
-			<Item Name="_iWorx - Blood Presure.vi" Type="VI" URL="../_iWorx - Blood Presure.vi"/>
-			<Item Name="_iWorx - Hand Dynamometer.vi" Type="VI" URL="../_iWorx - Hand Dynamometer.vi"/>
-			<Item Name="_iWorx - Thermistor.vi" Type="VI" URL="../_iWorx - Thermistor.vi"/>
-			<Item Name="_iWorx - Pulse.vi" Type="VI" URL="../_iWorx - Pulse.vi"/>
-			<Item Name="_iWorx - Event Marker.vi" Type="VI" URL="../_iWorx - Event Marker.vi"/>
-			<Item Name="_iWorx - Goniometer.vi" Type="VI" URL="../_iWorx - Goniometer.vi"/>
-			<Item Name="_iWorx - Respiration Belt.vi" Type="VI" URL="../_iWorx - Respiration Belt.vi"/>
-			<Item Name="_iWorx - Drop Counter.vi" Type="VI" URL="../_iWorx - Drop Counter.vi"/>
-			<Item Name="_iWorx - Microphone.vi" Type="VI" URL="../_iWorx - Microphone.vi"/>
-			<Item Name="_iWorx - Colorimeter.vi" Type="VI" URL="../_iWorx - Colorimeter.vi"/>
-			<Item Name="_iWorx - Dissolved Oxygen.vi" Type="VI" URL="../_iWorx - Dissolved Oxygen.vi"/>
-			<Item Name="_iWorx - Humidity.vi" Type="VI" URL="../_iWorx - Humidity.vi"/>
-			<Item Name="_iWorx - Force.vi" Type="VI" URL="../_iWorx - Force.vi"/>
-			<Item Name="_iWorx - Heart Sounds.vi" Type="VI" URL="../_iWorx - Heart Sounds.vi"/>
-			<Item Name="_iWorx - Light &amp; Laser.vi" Type="VI" URL="../_iWorx - Light &amp; Laser.vi"/>
-			<Item Name="_iWorx - Spirometer.vi" Type="VI" URL="../_iWorx - Spirometer.vi"/>
-			<Item Name="_iWorx - Magnetic Field.vi" Type="VI" URL="../_iWorx - Magnetic Field.vi"/>
-			<Item Name="_iWorx - pH.vi" Type="VI" URL="../_iWorx - pH.vi"/>
-			<Item Name="_iWorx - Motion.vi" Type="VI" URL="../_iWorx - Motion.vi"/>
-			<Item Name="_iWorx - Polar Heart Rate Monitor.vi" Type="VI" URL="../_iWorx - Polar Heart Rate Monitor.vi"/>
+			<Item Name="iWorx - Conductivity.vi" Type="VI" URL="../iWorx - Conductivity.vi"/>
+			<Item Name="iWorx - Gas Pressure.vi" Type="VI" URL="../iWorx - Gas Pressure.vi"/>
+			<Item Name="iWorx - Blood Presure.vi" Type="VI" URL="../iWorx - Blood Presure.vi"/>
+			<Item Name="iWorx - Hand Dynamometer.vi" Type="VI" URL="../iWorx - Hand Dynamometer.vi"/>
+			<Item Name="iWorx - Thermistor.vi" Type="VI" URL="../iWorx - Thermistor.vi"/>
+			<Item Name="iWorx - Pulse.vi" Type="VI" URL="../iWorx - Pulse.vi"/>
+			<Item Name="iWorx - Event Marker.vi" Type="VI" URL="../iWorx - Event Marker.vi"/>
+			<Item Name="iWorx - Goniometer.vi" Type="VI" URL="../iWorx - Goniometer.vi"/>
+			<Item Name="iWorx - Respiration Belt.vi" Type="VI" URL="../iWorx - Respiration Belt.vi"/>
+			<Item Name="iWorx - Drop Counter.vi" Type="VI" URL="../iWorx - Drop Counter.vi"/>
+			<Item Name="iWorx - Microphone.vi" Type="VI" URL="../iWorx - Microphone.vi"/>
+			<Item Name="iWorx - Colorimeter.vi" Type="VI" URL="../iWorx - Colorimeter.vi"/>
+			<Item Name="iWorx - Dissolved Oxygen.vi" Type="VI" URL="../iWorx - Dissolved Oxygen.vi"/>
+			<Item Name="iWorx - Humidity.vi" Type="VI" URL="../iWorx - Humidity.vi"/>
+			<Item Name="iWorx - Force.vi" Type="VI" URL="../iWorx - Force.vi"/>
+			<Item Name="iWorx - Heart Sounds.vi" Type="VI" URL="../iWorx - Heart Sounds.vi"/>
+			<Item Name="iWorx - Light &amp; Laser.vi" Type="VI" URL="../iWorx - Light &amp; Laser.vi"/>
+			<Item Name="iWorx - Spirometer.vi" Type="VI" URL="../iWorx - Spirometer.vi"/>
+			<Item Name="iWorx - Magnetic Field.vi" Type="VI" URL="../iWorx - Magnetic Field.vi"/>
+			<Item Name="iWorx - pH.vi" Type="VI" URL="../iWorx - pH.vi"/>
+			<Item Name="iWorx - Motion.vi" Type="VI" URL="../iWorx - Motion.vi"/>
+			<Item Name="iWorx - Polar Heart Rate Monitor.vi" Type="VI" URL="../iWorx - Polar Heart Rate Monitor.vi"/>
 		</Item>
 		<Item Name="Labs" Type="Folder">
 			<Item Name="iWorx - Circulation Lab.vi" Type="VI" URL="../iWorx - Circulation Lab.vi"/>
@@ -69,11 +69,13 @@
 				<Item Name="Set Up Dialog - Spirometer.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Spirometer.vi"/>
 				<Item Name="Set Up Dialog - Water Quality.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Water Quality.vi"/>
 			</Item>
+			<Item Name="iWorx Set Points.ctl" Type="VI" URL="../../vi.lib/iWorx/iWorx Set Points.ctl"/>
 			<Item Name="iWorx 2PT Cal Data.ctl" Type="VI" URL="../../vi.lib/iWorx/iWorx 2PT Cal Data.ctl"/>
 			<Item Name="iWorx Drop Counter SubVI.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Drop Counter SubVI.vi"/>
 			<Item Name="iWorx Event Marker SubVI.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Event Marker SubVI.vi"/>
 			<Item Name="iWorx Get Visible Chart Data.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Get Visible Chart Data.vi"/>
 			<Item Name="iWorx 2 pt Scale.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx 2 pt Scale.vi"/>
+			<Item Name="iWorx Find myDAQ.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Find myDAQ.vi"/>
 			<Item Name="iWorx Light &amp; Laser SubVI (Linear).vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Light &amp; Laser SubVI (Linear).vi"/>
 			<Item Name="iWorx Polar Pulse SubVI.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Polar Pulse SubVI.vi"/>
 			<Item Name="iWorx Pulse SubVI.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Pulse SubVI.vi"/>
@@ -89,9 +91,7 @@
 			<Item Name="iWorx Chart Autoscale.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Chart Autoscale.vi"/>
 			<Item Name="Reset Graph Scale.vi" Type="VI" URL="../../vi.lib/iWorx/Reset Graph Scale.vi"/>
 		</Item>
-		<Item Name="iWorx Set Points.ctl" Type="VI" URL="../../vi.lib/iWorx/iWorx Set Points.ctl"/>
 		<Item Name="iWorx New Distance.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx New Distance.vi"/>
-		<Item Name="iWorx Find myDAQ.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Find myDAQ.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Append Waveforms.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Append Waveforms.vi"/>
