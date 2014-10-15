@@ -32,9 +32,8 @@
 			<Item Name="_iWorx - Spirometer.vi" Type="VI" URL="../_iWorx - Spirometer.vi"/>
 			<Item Name="_iWorx - Magnetic Field.vi" Type="VI" URL="../_iWorx - Magnetic Field.vi"/>
 			<Item Name="_iWorx - pH.vi" Type="VI" URL="../_iWorx - pH.vi"/>
-			<Item Name="iWorx - Motion.vi" Type="VI" URL="../iWorx - Motion.vi"/>
-			<Item Name="iWorx - Polar Heart Rate Monitor.vi" Type="VI" URL="../iWorx - Polar Heart Rate Monitor.vi"/>
-			<Item Name="iWorx - Turbidity.vi" Type="VI" URL="../iWorx - Turbidity.vi"/>
+			<Item Name="_iWorx - Motion.vi" Type="VI" URL="../_iWorx - Motion.vi"/>
+			<Item Name="_iWorx - Polar Heart Rate Monitor.vi" Type="VI" URL="../_iWorx - Polar Heart Rate Monitor.vi"/>
 		</Item>
 		<Item Name="Labs" Type="Folder">
 			<Item Name="iWorx - Circulation Lab.vi" Type="VI" URL="../iWorx - Circulation Lab.vi"/>
@@ -68,7 +67,6 @@
 				<Item Name="Set Up Dialog - pH.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - pH.vi"/>
 				<Item Name="Set Up Dialog - Polar Heart Rate.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Polar Heart Rate.vi"/>
 				<Item Name="Set Up Dialog - Spirometer.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Spirometer.vi"/>
-				<Item Name="Set Up Dialog - Turbidity.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Turbidity.vi"/>
 				<Item Name="Set Up Dialog - Water Quality.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Water Quality.vi"/>
 			</Item>
 			<Item Name="iWorx 2PT Cal Data.ctl" Type="VI" URL="../../vi.lib/iWorx/iWorx 2PT Cal Data.ctl"/>
@@ -91,9 +89,7 @@
 			<Item Name="iWorx Chart Autoscale.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Chart Autoscale.vi"/>
 			<Item Name="Reset Graph Scale.vi" Type="VI" URL="../../vi.lib/iWorx/Reset Graph Scale.vi"/>
 		</Item>
-		<Item Name="Question Button.ctl" Type="VI" URL="../../../../../Hunter Drive/Graphics/Controls/Info Button/Question Button.ctl"/>
 		<Item Name="iWorx Set Points.ctl" Type="VI" URL="../../vi.lib/iWorx/iWorx Set Points.ctl"/>
-		<Item Name="Reset Button.ctl" Type="VI" URL="../../../../../Hunter Drive/Graphics/Controls/Info Button/Reset Button.ctl"/>
 		<Item Name="iWorx New Distance.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx New Distance.vi"/>
 		<Item Name="iWorx Find myDAQ.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Find myDAQ.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
