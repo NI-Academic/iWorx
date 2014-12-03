@@ -73,7 +73,7 @@
 				<Item Name="Set Up Dialog - pH.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - pH.vi"/>
 				<Item Name="Set Up Dialog - Polar Heart Rate.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Polar Heart Rate.vi"/>
 				<Item Name="Set Up Dialog - Spirometer.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Spirometer.vi"/>
-				<Item Name="Set Up Dialog - Water Quality.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Water Quality.vi"/>
+				<Item Name="Set Up Dialog - Water Quality Lab.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Water Quality Lab.vi"/>
 			</Item>
 			<Item Name="iWorx Set Points.ctl" Type="VI" URL="../../vi.lib/iWorx/iWorx Set Points.ctl"/>
 			<Item Name="iWorx 2PT Cal Data.ctl" Type="VI" URL="../../vi.lib/iWorx/iWorx 2PT Cal Data.ctl"/>
