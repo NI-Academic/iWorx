@@ -12,8 +12,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Bioinstrumentation Sensor Examples" Type="Folder">
+			<Item Name="iWorx - Blood Presure.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Blood Presure.vi"/>
 			<Item Name="iWorx - Event Marker.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Event Marker.vi"/>
-			<Item Name="iWorx - Gas Pressure.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Gas Pressure.vi"/>
+			<Item Name="iWorx - Gas Pressure - Bio.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Gas Pressure - Bio.vi"/>
 			<Item Name="iWorx - Goniometer.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Goniometer.vi"/>
 			<Item Name="iWorx - Hand Dynamometer.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Hand Dynamometer.vi"/>
 			<Item Name="iWorx - Heart Sounds.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Heart Sounds.vi"/>
@@ -56,6 +57,9 @@
 			<Item Name="Move to Origin.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Move to Origin.vi"/>
 			<Item Name="myDAQ Errors.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/myDAQ Errors.vi"/>
 			<Item Name="Reset Graph Scale.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Reset Graph Scale.vi"/>
+			<Item Name="Round to Increment.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Round to Increment.vi"/>
+			<Item Name="iWorx Get Visible Chart Array Data.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/iWorx Get Visible Chart Array Data.vi"/>
+			<Item Name="Launch Analyze2.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Launch Analyze2.vi"/>
 		</Item>
 		<Item Name="iWorx - Circulation Lab.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Circulation Lab.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">

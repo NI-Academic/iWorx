@@ -18,25 +18,26 @@
 		</Item>
 		<Item Name="Bioinstrumentation Sensor Examples" Type="Folder">
 			<Item Name="iWorx - Blood Presure.vi" Type="VI" URL="../iWorx - Blood Presure.vi"/>
-			<Item Name="iWorx - Hand Dynamometer.vi" Type="VI" URL="../iWorx - Hand Dynamometer.vi"/>
-			<Item Name="iWorx - Thermistor -Bio.vi" Type="VI" URL="../iWorx - Thermistor -Bio.vi"/>
-			<Item Name="iWorx - Pulse.vi" Type="VI" URL="../iWorx - Pulse.vi"/>
 			<Item Name="iWorx - Event Marker.vi" Type="VI" URL="../iWorx - Event Marker.vi"/>
 			<Item Name="iWorx - Goniometer.vi" Type="VI" URL="../iWorx - Goniometer.vi"/>
-			<Item Name="iWorx - Respiration Belt.vi" Type="VI" URL="../iWorx - Respiration Belt.vi"/>
+			<Item Name="iWorx - Gas Pressure - Bio.vi" Type="VI" URL="../iWorx - Gas Pressure - Bio.vi"/>
+			<Item Name="iWorx - Hand Dynamometer.vi" Type="VI" URL="../iWorx - Hand Dynamometer.vi"/>
 			<Item Name="iWorx - Heart Sounds.vi" Type="VI" URL="../iWorx - Heart Sounds.vi"/>
-			<Item Name="iWorx - Spirometer.vi" Type="VI" URL="../iWorx - Spirometer.vi"/>
 			<Item Name="iWorx - Polar Heart Rate Monitor.vi" Type="VI" URL="../iWorx - Polar Heart Rate Monitor.vi"/>
+			<Item Name="iWorx - Pulse.vi" Type="VI" URL="../iWorx - Pulse.vi"/>
+			<Item Name="iWorx - Respiration Belt.vi" Type="VI" URL="../iWorx - Respiration Belt.vi"/>
+			<Item Name="iWorx - Spirometer.vi" Type="VI" URL="../iWorx - Spirometer.vi"/>
+			<Item Name="iWorx - Thermistor -Bio.vi" Type="VI" URL="../iWorx - Thermistor -Bio.vi"/>
 		</Item>
 		<Item Name="Chemistry Sensor Examples" Type="Folder">
-			<Item Name="iWorx - Gas Pressure.vi" Type="VI" URL="../iWorx - Gas Pressure.vi"/>
-			<Item Name="iWorx - Drop Counter.vi" Type="VI" URL="../iWorx - Drop Counter.vi"/>
 			<Item Name="iWorx - Colorimeter.vi" Type="VI" URL="../iWorx - Colorimeter.vi"/>
+			<Item Name="iWorx - Conductivity.vi" Type="VI" URL="../iWorx - Conductivity.vi"/>
 			<Item Name="iWorx - Dissolved Oxygen.vi" Type="VI" URL="../iWorx - Dissolved Oxygen.vi"/>
+			<Item Name="iWorx - Drop Counter.vi" Type="VI" URL="../iWorx - Drop Counter.vi"/>
+			<Item Name="iWorx - Gas Pressure - Chem.vi" Type="VI" URL="../iWorx - Gas Pressure - Chem.vi"/>
 			<Item Name="iWorx - Humidity.vi" Type="VI" URL="../iWorx - Humidity.vi"/>
 			<Item Name="iWorx - pH.vi" Type="VI" URL="../iWorx - pH.vi"/>
 			<Item Name="iWorx - Thermistor -Chem.vi" Type="VI" URL="../iWorx - Thermistor -Chem.vi"/>
-			<Item Name="iWorx - Conductivity.vi" Type="VI" URL="../iWorx - Conductivity.vi"/>
 		</Item>
 		<Item Name="Physics Sensor Examples" Type="Folder">
 			<Item Name="iWorx - Microphone.vi" Type="VI" URL="../iWorx - Microphone.vi"/>
@@ -54,7 +55,6 @@
 				<Item Name="Set Up Dialog - Gas Pressure.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Gas Pressure.vi"/>
 				<Item Name="Set Up Dialog - Hand Dynamometer.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Hand Dynamometer.vi"/>
 				<Item Name="Set Up Dialog - Pulse.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Pulse.vi"/>
-				<Item Name="Set Up Dialog - Thermistor.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Thermistor.vi"/>
 				<Item Name="Set Up Dialog - Event Marker.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Event Marker.vi"/>
 				<Item Name="Set Up Dialog - Goniometer .vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Goniometer .vi"/>
 				<Item Name="Set Up Dialog - Respiration belt.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Respiration belt.vi"/>
@@ -73,6 +73,7 @@
 				<Item Name="Set Up Dialog - pH.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - pH.vi"/>
 				<Item Name="Set Up Dialog - Polar Heart Rate.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Polar Heart Rate.vi"/>
 				<Item Name="Set Up Dialog - Spirometer.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Spirometer.vi"/>
+				<Item Name="Set Up Dialog - Thermistor.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Thermistor.vi"/>
 				<Item Name="Set Up Dialog - Water Quality Lab.vi" Type="VI" URL="../../vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Water Quality Lab.vi"/>
 			</Item>
 			<Item Name="iWorx Set Points.ctl" Type="VI" URL="../../vi.lib/iWorx/iWorx Set Points.ctl"/>
@@ -96,6 +97,12 @@
 			<Item Name="Move to Origin.vi" Type="VI" URL="../../vi.lib/iWorx/Move to Origin.vi"/>
 			<Item Name="iWorx Chart Autoscale.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Chart Autoscale.vi"/>
 			<Item Name="Reset Graph Scale.vi" Type="VI" URL="../../vi.lib/iWorx/Reset Graph Scale.vi"/>
+			<Item Name="Analyze Waveform.vi" Type="VI" URL="../../vi.lib/iWorx/Analyze Waveform.vi"/>
+			<Item Name="iWorx Get Visible Chart Array Data.vi" Type="VI" URL="../../vi.lib/iWorx/iWorx Get Visible Chart Array Data.vi"/>
+			<Item Name="Launch Analyze.vi" Type="VI" URL="../../vi.lib/iWorx/Launch Analyze.vi"/>
+			<Item Name="Launch Analyze2.vi" Type="VI" URL="../../vi.lib/iWorx/Launch Analyze2.vi"/>
+			<Item Name="Analyze Waveforms.vi" Type="VI" URL="../../vi.lib/iWorx/Analyze Waveforms.vi"/>
+			<Item Name="Round to Increment.vi" Type="VI" URL="../../vi.lib/iWorx/Round to Increment.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

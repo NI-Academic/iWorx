@@ -10,41 +10,41 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Chemistry Sensor Examples" Type="Folder">
-			<Item Name="iWorx - Colorimeter.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Colorimeter.vi"/>
-			<Item Name="iWorx - Conductivity.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Conductivity.vi"/>
-			<Item Name="iWorx - Dissolved Oxygen.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Dissolved Oxygen.vi"/>
-			<Item Name="iWorx - Drop Counter.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Drop Counter.vi"/>
-			<Item Name="iWorx - Gas Pressure - Chem.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Gas Pressure - Chem.vi"/>
-			<Item Name="iWorx - Humidity.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Humidity.vi"/>
-			<Item Name="iWorx - pH.vi" Type="VI" URL="../LabVIEW/examples/iWorx - pH.vi"/>
-			<Item Name="iWorx - Thermistor -Chem.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Thermistor -Chem.vi"/>
+		<Item Name="Physics Sensor Examples" Type="Folder">
+			<Item Name="iWorx - Force.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Force.vi"/>
+			<Item Name="iWorx - Light &amp; Laser.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Light &amp; Laser.vi"/>
+			<Item Name="iWorx - Magnetic Field.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Magnetic Field.vi"/>
+			<Item Name="iWorx - Microphone.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Microphone.vi"/>
+			<Item Name="iWorx - Motion.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Motion.vi"/>
+			<Item Name="iWorx - Thermistor -Phy.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Thermistor -Phy.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Set Up Dialogs" Type="Folder">
-				<Item Name="Set Up Dialog - Colorimeter.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Colorimeter.vi"/>
-				<Item Name="Set Up Dialog - Conductivity.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Conductivity.vi"/>
-				<Item Name="Set Up Dialog - Dissolved Oxygen.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Dissolved Oxygen.vi"/>
-				<Item Name="Set Up Dialog - Drop Counter.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Drop Counter.vi"/>
-				<Item Name="Set Up Dialog - Gas Pressure.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Gas Pressure.vi"/>
-				<Item Name="Set Up Dialog - Humidity.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Humidity.vi"/>
-				<Item Name="Set Up Dialog - pH.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Set Up Dialog/Set Up Dialog - pH.vi"/>
+				<Item Name="Set Up Dialog - Force.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Force.vi"/>
+				<Item Name="Set Up Dialog - Light &amp; Laser.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Light &amp; Laser.vi"/>
+				<Item Name="Set Up Dialog - Magnetic Field.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Magnetic Field.vi"/>
+				<Item Name="Set Up Dialog - Motion.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Motion.vi"/>
 				<Item Name="Set Up Dialog - Thermistor.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Thermistor.vi"/>
 				<Item Name="Spreadsheet Info Dialog.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Set Up Dialog/Spreadsheet Info Dialog.vi"/>
 			</Item>
+			<Item Name="Analyze Waveform.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Analyze Waveform.vi"/>
 			<Item Name="iWorx 2 pt Scale.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/iWorx 2 pt Scale.vi"/>
 			<Item Name="iWorx Chart Autoscale.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/iWorx Chart Autoscale.vi"/>
-			<Item Name="iWorx Drop Counter SubVI.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/iWorx Drop Counter SubVI.vi"/>
 			<Item Name="iWorx Find myDAQ.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/iWorx Find myDAQ.vi"/>
 			<Item Name="iWorx Get Visible Chart Data.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/iWorx Get Visible Chart Data.vi"/>
+			<Item Name="iWorx Light &amp; Laser SubVI (Linear).vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/iWorx Light &amp; Laser SubVI (Linear).vi"/>
+			<Item Name="iWorx Light &amp; Laser SubVI (Periodic).vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/iWorx Light &amp; Laser SubVI (Periodic).vi"/>
 			<Item Name="iWorx Set Points.ctl" Type="VI" URL="../LabVIEW/vi.lib/iWorx/iWorx Set Points.ctl"/>
 			<Item Name="iWorx Snapshot.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/iWorx Snapshot.vi"/>
+			<Item Name="Launch Analyze.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Launch Analyze.vi"/>
 			<Item Name="Launch Set Up.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Launch Set Up.vi"/>
 			<Item Name="Move to Origin.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Move to Origin.vi"/>
 			<Item Name="myDAQ Errors.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/myDAQ Errors.vi"/>
 			<Item Name="Reset Graph Scale.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Reset Graph Scale.vi"/>
 			<Item Name="Round to Increment.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Round to Increment.vi"/>
+			<Item Name="Set Up Dialog - Microphone.vi" Type="VI" URL="../LabVIEW/vi.lib/iWorx/Set Up Dialog/Set Up Dialog - Microphone.vi"/>
 		</Item>
+		<Item Name="iWorx - Periodic Motion Lab.vi" Type="VI" URL="../LabVIEW/examples/iWorx - Periodic Motion Lab.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Append Waveforms.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Append Waveforms.vi"/>
